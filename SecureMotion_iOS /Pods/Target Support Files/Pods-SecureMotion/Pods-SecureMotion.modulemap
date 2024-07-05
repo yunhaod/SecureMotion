@@ -1,0 +1,6 @@
+framework module Pods_SecureMotion {
+  umbrella header "Pods-SecureMotion-umbrella.h"
+
+  export *
+  module * { export * }
+}

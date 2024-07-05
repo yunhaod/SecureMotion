@@ -1,0 +1,6 @@
+framework module Pods_SecureMotionTests {
+  umbrella header "Pods-SecureMotionTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14FE93AB65D045CDD445C7A2 /* Pods_SecureMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49846375E0D009BEB96B5056 /* Pods_SecureMotion.framework */; };
+		4CE2ECD62C25F20400D0B97D /* IotManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE2ECD52C25F20400D0B97D /* IotManager.swift */; };
+		4CF561152C24CE5600DF0AC5 /* SecureMotionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF561142C24CE5600DF0AC5 /* SecureMotionApp.swift */; };
+		4CF561172C24CE5600DF0AC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF561162C24CE5600DF0AC5 /* ContentView.swift */; };
+		4CF561192C24CE5700DF0AC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF561182C24CE5700DF0AC5 /* Assets.xcassets */; };
+		4CF5611C2C24CE5700DF0AC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF5611B2C24CE5700DF0AC5 /* Preview Assets.xcassets */; };
+		4CF561272C24CE5700DF0AC5 /* SecureMotionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF561262C24CE5700DF0AC5 /* SecureMotionTests.swift */; };
+		4CF561312C24CE5800DF0AC5 /* SecureMotionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF561302C24CE5800DF0AC5 /* SecureMotionUITests.swift */; };
+		4CF561332C24CE5800DF0AC5 /* SecureMotionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF561322C24CE5800DF0AC5 /* SecureMotionUITestsLaunchTests.swift */; };
+		6085314BC4B1191EB2A1ABCA /* Pods_SecureMotionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DD9D14856AE27CF3B5E4A7 /* Pods_SecureMotionUITests.framework */; };
+		D213AD47B7832478D7FD7D57 /* Pods_SecureMotionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03D41C9F3AAF8F570E7E099 /* Pods_SecureMotionTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CF561232C24CE5700DF0AC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CF561092C24CE5600DF0AC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF561102C24CE5600DF0AC5;
+			remoteInfo = SecureMotion;
+		};
+		4CF5612D2C24CE5800DF0AC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CF561092C24CE5600DF0AC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF561102C24CE5600DF0AC5;
+			remoteInfo = SecureMotion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19F2BCDCA43F66143FC1B7F2 /* Pods-SecureMotionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureMotionUITests.debug.xcconfig"; path = "Target Support Files/Pods-SecureMotionUITests/Pods-SecureMotionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		209056DAFB063EEE26DF71FB /* Pods-SecureMotion-SecureMotionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureMotion-SecureMotionUITests.debug.xcconfig"; path = "Target Support Files/Pods-SecureMotion-SecureMotionUITests/Pods-SecureMotion-SecureMotionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		49846375E0D009BEB96B5056 /* Pods_SecureMotion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecureMotion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE2ECD52C25F20400D0B97D /* IotManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IotManager.swift; sourceTree = "<group>"; };
+		4CF561112C24CE5600DF0AC5 /* SecureMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF561142C24CE5600DF0AC5 /* SecureMotionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureMotionApp.swift; sourceTree = "<group>"; };
+		4CF561162C24CE5600DF0AC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4CF561182C24CE5700DF0AC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CF5611B2C24CE5700DF0AC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4CF5611D2C24CE5700DF0AC5 /* SecureMotion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SecureMotion.entitlements; sourceTree = "<group>"; };
+		4CF561222C24CE5700DF0AC5 /* SecureMotionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecureMotionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF561262C24CE5700DF0AC5 /* SecureMotionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureMotionTests.swift; sourceTree = "<group>"; };
+		4CF5612C2C24CE5800DF0AC5 /* SecureMotionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecureMotionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF561302C24CE5800DF0AC5 /* SecureMotionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureMotionUITests.swift; sourceTree = "<group>"; };
+		4CF561322C24CE5800DF0AC5 /* SecureMotionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureMotionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		699128739C93D7516FF2F728 /* Pods-SecureMotionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureMotionTests.debug.xcconfig"; path = "Target Support Files/Pods-SecureMotionTests/Pods-SecureMotionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D4FD04470A768A24E4DCC7F /* Pods-SecureMotionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureMotionTests.release.xcconfig"; path = "Target Support Files/Pods-SecureMotionTests/Pods-SecureMotionTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A6F80357174439E8F1F3F10 /* Pods-SecureMotion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureMotion.release.xcconfig"; path = "Target Support Files/Pods-SecureMotion/Pods-SecureMotion.release.xcconfig"; sourceTree = "<group>"; };
+		AB5D412FB5EEB75F446BD827 /* Pods-SecureMotionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureMotionUITests.release.xcconfig"; path = "Target Support Files/Pods-SecureMotionUITests/Pods-SecureMotionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B03D41C9F3AAF8F570E7E099 /* Pods_SecureMotionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecureMotionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E03F4857ED15164F5FFCF515 /* Pods-SecureMotion-SecureMotionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureMotion-SecureMotionUITests.release.xcconfig"; path = "Target Support Files/Pods-SecureMotion-SecureMotionUITests/Pods-SecureMotion-SecureMotionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E5BCCEC416842CE35507A3F5 /* Pods-SecureMotion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureMotion.debug.xcconfig"; path = "Target Support Files/Pods-SecureMotion/Pods-SecureMotion.debug.xcconfig"; sourceTree = "<group>"; };
+		F7DD9D14856AE27CF3B5E4A7 /* Pods_SecureMotionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecureMotionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CF5610E2C24CE5600DF0AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14FE93AB65D045CDD445C7A2 /* Pods_SecureMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF5611F2C24CE5700DF0AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D213AD47B7832478D7FD7D57 /* Pods_SecureMotionTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF561292C24CE5800DF0AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6085314BC4B1191EB2A1ABCA /* Pods_SecureMotionUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FE9685E093DBBAD12F06E3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49846375E0D009BEB96B5056 /* Pods_SecureMotion.framework */,
+				B03D41C9F3AAF8F570E7E099 /* Pods_SecureMotionTests.framework */,
+				F7DD9D14856AE27CF3B5E4A7 /* Pods_SecureMotionUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CF561082C24CE5600DF0AC5 = {
+			isa = PBXGroup;
+			children = (
+				4CF561132C24CE5600DF0AC5 /* SecureMotion */,
+				4CF561252C24CE5700DF0AC5 /* SecureMotionTests */,
+				4CF5612F2C24CE5800DF0AC5 /* SecureMotionUITests */,
+				4CF561122C24CE5600DF0AC5 /* Products */,
+				9502DDE5DED20C46E1BF9AAB /* Pods */,
+				0FE9685E093DBBAD12F06E3E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CF561122C24CE5600DF0AC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CF561112C24CE5600DF0AC5 /* SecureMotion.app */,
+				4CF561222C24CE5700DF0AC5 /* SecureMotionTests.xctest */,
+				4CF5612C2C24CE5800DF0AC5 /* SecureMotionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CF561132C24CE5600DF0AC5 /* SecureMotion */ = {
+			isa = PBXGroup;
+			children = (
+				4CE2ECD52C25F20400D0B97D /* IotManager.swift */,
+				4CF561142C24CE5600DF0AC5 /* SecureMotionApp.swift */,
+				4CF561162C24CE5600DF0AC5 /* ContentView.swift */,
+				4CF561182C24CE5700DF0AC5 /* Assets.xcassets */,
+				4CF5611D2C24CE5700DF0AC5 /* SecureMotion.entitlements */,
+				4CF5611A2C24CE5700DF0AC5 /* Preview Content */,
+			);
+			path = SecureMotion;
+			sourceTree = "<group>";
+		};
+		4CF5611A2C24CE5700DF0AC5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4CF5611B2C24CE5700DF0AC5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4CF561252C24CE5700DF0AC5 /* SecureMotionTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CF561262C24CE5700DF0AC5 /* SecureMotionTests.swift */,
+			);
+			path = SecureMotionTests;
+			sourceTree = "<group>";
+		};
+		4CF5612F2C24CE5800DF0AC5 /* SecureMotionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CF561302C24CE5800DF0AC5 /* SecureMotionUITests.swift */,
+				4CF561322C24CE5800DF0AC5 /* SecureMotionUITestsLaunchTests.swift */,
+			);
+			path = SecureMotionUITests;
+			sourceTree = "<group>";
+		};
+		9502DDE5DED20C46E1BF9AAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5BCCEC416842CE35507A3F5 /* Pods-SecureMotion.debug.xcconfig */,
+				9A6F80357174439E8F1F3F10 /* Pods-SecureMotion.release.xcconfig */,
+				209056DAFB063EEE26DF71FB /* Pods-SecureMotion-SecureMotionUITests.debug.xcconfig */,
+				E03F4857ED15164F5FFCF515 /* Pods-SecureMotion-SecureMotionUITests.release.xcconfig */,
+				699128739C93D7516FF2F728 /* Pods-SecureMotionTests.debug.xcconfig */,
+				8D4FD04470A768A24E4DCC7F /* Pods-SecureMotionTests.release.xcconfig */,
+				19F2BCDCA43F66143FC1B7F2 /* Pods-SecureMotionUITests.debug.xcconfig */,
+				AB5D412FB5EEB75F446BD827 /* Pods-SecureMotionUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CF561102C24CE5600DF0AC5 /* SecureMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF561362C24CE5800DF0AC5 /* Build configuration list for PBXNativeTarget "SecureMotion" */;
+			buildPhases = (
+				883C2C2C1B973B099BD4694B /* [CP] Check Pods Manifest.lock */,
+				4CF5610D2C24CE5600DF0AC5 /* Sources */,
+				4CF5610E2C24CE5600DF0AC5 /* Frameworks */,
+				4CF5610F2C24CE5600DF0AC5 /* Resources */,
+				484966557D9D3488F311ABDA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecureMotion;
+			productName = SecureMotion;
+			productReference = 4CF561112C24CE5600DF0AC5 /* SecureMotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CF561212C24CE5700DF0AC5 /* SecureMotionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF561392C24CE5800DF0AC5 /* Build configuration list for PBXNativeTarget "SecureMotionTests" */;
+			buildPhases = (
+				1569EA929E195802A7271F1E /* [CP] Check Pods Manifest.lock */,
+				4CF5611E2C24CE5700DF0AC5 /* Sources */,
+				4CF5611F2C24CE5700DF0AC5 /* Frameworks */,
+				4CF561202C24CE5700DF0AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CF561242C24CE5700DF0AC5 /* PBXTargetDependency */,
+			);
+			name = SecureMotionTests;
+			productName = SecureMotionTests;
+			productReference = 4CF561222C24CE5700DF0AC5 /* SecureMotionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CF5612B2C24CE5800DF0AC5 /* SecureMotionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF5613C2C24CE5800DF0AC5 /* Build configuration list for PBXNativeTarget "SecureMotionUITests" */;
+			buildPhases = (
+				282933EF59E5999C8458605B /* [CP] Check Pods Manifest.lock */,
+				4CF561282C24CE5800DF0AC5 /* Sources */,
+				4CF561292C24CE5800DF0AC5 /* Frameworks */,
+				4CF5612A2C24CE5800DF0AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CF5612E2C24CE5800DF0AC5 /* PBXTargetDependency */,
+			);
+			name = SecureMotionUITests;
+			productName = SecureMotionUITests;
+			productReference = 4CF5612C2C24CE5800DF0AC5 /* SecureMotionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CF561092C24CE5600DF0AC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					4CF561102C24CE5600DF0AC5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					4CF561212C24CE5700DF0AC5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 4CF561102C24CE5600DF0AC5;
+					};
+					4CF5612B2C24CE5800DF0AC5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 4CF561102C24CE5600DF0AC5;
+					};
+				};
+			};
+			buildConfigurationList = 4CF5610C2C24CE5600DF0AC5 /* Build configuration list for PBXProject "SecureMotion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CF561082C24CE5600DF0AC5;
+			productRefGroup = 4CF561122C24CE5600DF0AC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CF561102C24CE5600DF0AC5 /* SecureMotion */,
+				4CF561212C24CE5700DF0AC5 /* SecureMotionTests */,
+				4CF5612B2C24CE5800DF0AC5 /* SecureMotionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CF5610F2C24CE5600DF0AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF5611C2C24CE5700DF0AC5 /* Preview Assets.xcassets in Resources */,
+				4CF561192C24CE5700DF0AC5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF561202C24CE5700DF0AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF5612A2C24CE5800DF0AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1569EA929E195802A7271F1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SecureMotionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		282933EF59E5999C8458605B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SecureMotionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		484966557D9D3488F311ABDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SecureMotion/Pods-SecureMotion-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SecureMotion/Pods-SecureMotion-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SecureMotion/Pods-SecureMotion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		883C2C2C1B973B099BD4694B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SecureMotion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CF5610D2C24CE5600DF0AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF561172C24CE5600DF0AC5 /* ContentView.swift in Sources */,
+				4CE2ECD62C25F20400D0B97D /* IotManager.swift in Sources */,
+				4CF561152C24CE5600DF0AC5 /* SecureMotionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF5611E2C24CE5700DF0AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF561272C24CE5700DF0AC5 /* SecureMotionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF561282C24CE5800DF0AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF561312C24CE5800DF0AC5 /* SecureMotionUITests.swift in Sources */,
+				4CF561332C24CE5800DF0AC5 /* SecureMotionUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CF561242C24CE5700DF0AC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CF561102C24CE5600DF0AC5 /* SecureMotion */;
+			targetProxy = 4CF561232C24CE5700DF0AC5 /* PBXContainerItemProxy */;
+		};
+		4CF5612E2C24CE5800DF0AC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CF561102C24CE5600DF0AC5 /* SecureMotion */;
+			targetProxy = 4CF5612D2C24CE5800DF0AC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4CF561342C24CE5800DF0AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CF561352C24CE5800DF0AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4CF561372C24CE5800DF0AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5BCCEC416842CE35507A3F5 /* Pods-SecureMotion.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SecureMotion/SecureMotion.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SecureMotion/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.yunhaodong.SecureMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4CF561382C24CE5800DF0AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A6F80357174439E8F1F3F10 /* Pods-SecureMotion.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SecureMotion/SecureMotion.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SecureMotion/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.yunhaodong.SecureMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4CF5613A2C24CE5800DF0AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699128739C93D7516FF2F728 /* Pods-SecureMotionTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.yunhaodong.SecureMotionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecureMotion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SecureMotion";
+			};
+			name = Debug;
+		};
+		4CF5613B2C24CE5800DF0AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D4FD04470A768A24E4DCC7F /* Pods-SecureMotionTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.yunhaodong.SecureMotionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecureMotion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SecureMotion";
+			};
+			name = Release;
+		};
+		4CF5613D2C24CE5800DF0AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19F2BCDCA43F66143FC1B7F2 /* Pods-SecureMotionUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.yunhaodong.SecureMotionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SecureMotion;
+			};
+			name = Debug;
+		};
+		4CF5613E2C24CE5800DF0AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5D412FB5EEB75F446BD827 /* Pods-SecureMotionUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.yunhaodong.SecureMotionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SecureMotion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CF5610C2C24CE5600DF0AC5 /* Build configuration list for PBXProject "SecureMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF561342C24CE5800DF0AC5 /* Debug */,
+				4CF561352C24CE5800DF0AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF561362C24CE5800DF0AC5 /* Build configuration list for PBXNativeTarget "SecureMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF561372C24CE5800DF0AC5 /* Debug */,
+				4CF561382C24CE5800DF0AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF561392C24CE5800DF0AC5 /* Build configuration list for PBXNativeTarget "SecureMotionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF5613A2C24CE5800DF0AC5 /* Debug */,
+				4CF5613B2C24CE5800DF0AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF5613C2C24CE5800DF0AC5 /* Build configuration list for PBXNativeTarget "SecureMotionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF5613D2C24CE5800DF0AC5 /* Debug */,
+				4CF5613E2C24CE5800DF0AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CF561092C24CE5600DF0AC5 /* Project object */;
+}
