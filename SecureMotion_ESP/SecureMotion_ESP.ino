@@ -2,19 +2,20 @@
 #include <PubSubClient.h>
 
 int hallPin = 3;
-//For Wifi
-const char* ssid = "SpectrumSetup-65";
-const char* password = "lighttiger237";
+//For Wifi Setup
+const char* ssid = "yourWifiSSID";
+const char* password = "yourWifiPassword";
 
 //For MQTT Broker
-const char* mqtt_server = "node02.myqtthub.com";
+const char* mqtt_server = "yourMQTTserver";
 const int mqtt_port = 1883;
-const char* mqtt_topic = "Security";
+const char* mqtt_topic = "yourTopic";
 char* message = "Intruder Detected";
 
 //Bootstrap Authroization Login
-const char* mqtt_username = "yunhao3391211";
-const char* mqtt_password = "testpass124311";
+const char* mqtt_username = "yourMQTTusername";
+const char* mqtt_password = "yourMQTTpassword";
+
 String receivedMessage;
 bool dangerous = false;
 bool old_status = dangerous;
